@@ -1,0 +1,109 @@
+@charset "euc-kr";
+body {
+	background-color: black;
+	color: white;
+    overflow-x: hidden;
+	padding: 50px 0px 0px 0px;
+}
+.nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	background-color: black;
+	border-bottom: 1px solid #ccc;
+	height: 50px;
+	line-height: 50px;
+}
+.nav a {
+	text-decoration: none;
+	color: #ccc;
+	margin: 0px 10px;
+}
+.nav a:hover {
+	color: #fff;
+}
+.carousel-item {
+    width: 100%;
+    height: 95vh;
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-item:hover {
+    color: white;
+}
+
+#keyimage-description {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+#keyimage1 {
+    background: linear-gradient(
+        to left,
+        rgba(20, 20, 20, 0) 10%,
+        rgba(20, 20, 20, 0.25) 25%,
+        rgba(20, 20, 20, 0.5) 50%,
+        rgba(20, 20, 20, 0.75) 75%,
+         rgba(20, 20, 20, 1) 100%
+    ), url('../images/keyimage/beomjoidosi.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#keyimage2 {
+    background: linear-gradient(
+        to left,
+        rgba(20, 20, 20, 0) 10%,
+        rgba(20, 20, 20, 0.25) 25%,
+        rgba(20, 20, 20, 0.5) 50%,
+        rgba(20, 20, 20, 0.75) 75%,
+         rgba(20, 20, 20, 1) 100%
+    ), url('../images/keyimage/topgun.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#keyimage3 {
+    background: linear-gradient(
+        to left,
+        rgba(20, 20, 20, 0) 10%,
+        rgba(20, 20, 20, 0.25) 25%,
+        rgba(20, 20, 20, 0.5) 50%,
+        rgba(20, 20, 20, 0.75) 75%,
+         rgba(20, 20, 20, 1) 100%
+    ), url('../images/keyimage/hansan.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-item img {
+    width: 220px;
+    margin: 0px 10px;
+}
+.btn1 {
+	border: 0px;
+	border-radius: 10px;
+	padding: 5px 20px;
+	font-weight: bold;
+	cursor: hand;
+}
+.btn1:hover {
+	background-color: #bbb;
+}
+input[type="button"] {
+	border: 0px;
+	border-radius: 10px;
+	padding: 5px 20px;
+	font-weight: bold;
+	cursor: hand;
+}
+input[type="button"]:hover {
+	background-color: #bbb;
+}
